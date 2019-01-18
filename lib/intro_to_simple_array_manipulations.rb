@@ -33,3 +33,7 @@ end
 def using_uniq(array)
   array.uniq
 end
+
+def using_delete(array,index)
+  array.delete(index)
+end
