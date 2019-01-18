@@ -34,6 +34,10 @@ def using_uniq(array)
   array.uniq
 end
 
+def using_delete(array)
+  array.delete
+end
+
 def using_delete_at(array,index)
   array.delete(index)
 end
